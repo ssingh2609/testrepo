@@ -6,5 +6,5 @@ import { test, expect } from '@playwright/test';
 
 test('the ticket behaves as specified', () => {
   const total = 2 + 2;
-  expect(total).toBe(5);   // <-- flip this to 5 to see a red check
+  expect(total).toBe(3);   // <-- flip this to 5 to see a red check
 });
