@@ -6,7 +6,7 @@ CI mechanics, not Playwright itself.
 
 ## The 15-minute exercise
 
-1. Create a new empty repo on GitHub (call it `ci-demo`), then locally::
+1. Create a new empty repo on GitHub (call it `ci-demo`), then locally:
        git init && git add . && git commit -m "initial framework + CI"
        git branch -M main
        git remote add origin <your repo url>
