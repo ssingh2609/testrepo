@@ -14,5 +14,5 @@ jobs:
       - uses: actions/setup-node@v4        # install Node
         with:
           node-version: 20
-      - run: npm ci                        # install dependencies
+      - run: npm install                        # install dependencies
       - run: npm test                      # run the tests = "the check"
